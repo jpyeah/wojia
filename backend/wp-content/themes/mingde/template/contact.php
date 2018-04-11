@@ -35,7 +35,7 @@ get_header();
             </div>
         </div>
         <div class="col-md-6">
-            <img style="width:500px;margin-top: 50px" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/map_img.png" alt="">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/map_img.png" alt="">
         </div>
     </div>
 </div>

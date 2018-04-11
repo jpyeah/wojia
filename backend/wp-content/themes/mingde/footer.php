@@ -91,6 +91,26 @@
         alert("您使用的浏览器过于陈旧，请使用IE8以上浏览器进行浏览，能够获得更好的体验！")
     }
 
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > 0) {
+                $('.scroll-top').css({
+                    display: 'block'
+                })
+            } else {
+                $('.scroll-top').css({
+                    display: 'none'
+                })
+            }
+        })
+        $('.scroll-top').click(function () {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 750)
+        })
+    })
+
 </script>
 
 </body>

@@ -39,6 +39,7 @@ h6 {
 }
 .navbar-inverse .navbar-collapse .navbar-nav {
   margin: 15px auto 0 100px;
+  background: #fff;
 }
 .home-project-and-service {
   padding-bottom: 50px;
@@ -318,6 +319,7 @@ h6 {
   border-radius: 100%;
   -o-object-fit: cover;
   object-fit: cover;
+  position: relative;
 }
 .team-advisor .team-item .team-text {
   width: 850px;
@@ -761,6 +763,10 @@ h6 {
   display: block;
   padding: 10px 0;
 }
+.callme img {
+  width: 500px;
+  margin-top: 50px;
+}
 .join-us {
   margin-top: 80px;
   background: url('../img/join_bg.png');
@@ -867,4 +873,5 @@ footer .copyright a {
   bottom: 50px;
   right: 50px;
   cursor: pointer;
+  display: none;
 }
