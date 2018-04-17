@@ -86,12 +86,12 @@ h6 {
 }
 .home-project-and-service .pro-item {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
   overflow: hidden;
 }
 .home-project-and-service .pro-item:hover {
   -webkit-box-shadow: 0 0 50px #999;
-  box-shadow: 0 0 50px #999;
+          box-shadow: 0 0 50px #999;
   cursor: pointer;
 }
 .home-project-and-service .pro-item .cover {
@@ -101,11 +101,13 @@ h6 {
 .home-project-and-service .pro-item img {
   width: 100%;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .home-project-and-service .pro-item img:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
   /* 放大1.2倍 */
 }
 .home-project-and-service .pro-item span {
@@ -165,7 +167,7 @@ h6 {
 }
 .entrepreneur-evaluation .enter-item:hover {
   -webkit-box-shadow: 0 0 10px #ccc;
-  box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
   cursor: pointer;
 }
 .entrepreneur-evaluation .enter-item:nth-child(2n) img {
@@ -182,7 +184,7 @@ h6 {
   width: 150px;
   height: 150px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   float: left;
 }
 .entrepreneur-evaluation .enter-item .enter-text {
@@ -239,20 +241,22 @@ h6 {
 }
 .partner .partner-logo {
   -webkit-box-shadow: 0 0 10px #ccc;
-  box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
   padding: 30px 20px;
 }
 .partner .partner-logo:hover {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
   cursor: pointer;
 }
 .partner .partner-logo:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .partner .partner-logo img {
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .company-desc {
@@ -304,12 +308,14 @@ h6 {
   width: 560px;
   height: 450px;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .company-desc .desc-box .desc-img img:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .company-desc .desc-box .desc-text {
   float: left;
@@ -380,11 +386,12 @@ h6 {
 }
 .team-advisor .team-item:hover .team-text {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
 }
 .team-advisor .team-item:hover img {
   -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+      -ms-transform: scale(1.4);
+          transform: scale(1.4);
 }
 .team-advisor .team-item .team-img {
   float: left;
@@ -399,9 +406,10 @@ h6 {
   height: 300px;
   border-radius: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: relative;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .team-advisor .team-item .team-text {
@@ -410,10 +418,10 @@ h6 {
   margin-left: -150px;
   float: left;
   -webkit-box-shadow: 0 0 10px #eee;
-  box-shadow: 0 0 10px #eee;
+          box-shadow: 0 0 10px #eee;
   padding: 20px 20px 20px 180px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 .team-advisor .team-item .team-text label {
   font-size: 20px;
@@ -478,12 +486,12 @@ h6 {
 }
 .project .pro-item {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
   margin-bottom: 30px;
 }
 .project .pro-item:hover {
   -webkit-box-shadow: 0 0 50px #999;
-  box-shadow: 0 0 50px #999;
+          box-shadow: 0 0 50px #999;
   cursor: pointer;
 }
 .project .pro-item .cover {
@@ -493,11 +501,13 @@ h6 {
 .project .pro-item img {
   width: 100%;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .project .pro-item img:hover {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
   /* 放大1.2倍 */
 }
 .project .pro-item span {
@@ -558,11 +568,12 @@ h6 {
 }
 .project-type .type-item:hover .type-item-text {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
 }
 .project-type .type-item:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .project-type .type-item:nth-child(2n) .type-img {
   float: right;
@@ -582,9 +593,10 @@ h6 {
   width: 400px;
   height: 385px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   position: relative;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .project-type .type-item .type-item-text {
@@ -647,18 +659,19 @@ h6 {
 }
 .case .case-item {
   -webkit-box-shadow: 0 0 10px #ccc;
-  box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
   padding: 20px;
   margin-top: 130px;
 }
 .case .case-item:hover {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
   cursor: pointer;
 }
 .case .case-item:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .case .case-item .logo-cover {
   width: 200px;
@@ -670,6 +683,7 @@ h6 {
   width: 200px;
   height: 200px;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .case .case-item label {
@@ -757,12 +771,13 @@ h6 {
 }
 .viewpoint .article-item:hover {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
   cursor: pointer;
 }
 .viewpoint .article-item:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .viewpoint .article-item:last-child {
   margin-bottom: 0;
@@ -776,14 +791,15 @@ h6 {
   width: 280px;
   height: 280px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .viewpoint .article-item .article-text {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 20px 40px;
 }
 .viewpoint .article-item .article-text label {
@@ -872,24 +888,26 @@ h6 {
 }
 .partner .logo-item {
   -webkit-box-shadow: 0 0 10px #ccc;
-  box-shadow: 0 0 10px #ccc;
+          box-shadow: 0 0 10px #ccc;
   height: 180px;
   margin-top: 50px;
 }
 .partner .logo-item:hover {
   -webkit-box-shadow: 0 0 20px #ccc;
-  box-shadow: 0 0 20px #ccc;
+          box-shadow: 0 0 20px #ccc;
   cursor: pointer;
 }
 .partner .logo-item:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .partner .logo-item img {
   display: block;
   margin: 0 auto;
   padding: 25% 0;
   -webkit-transition: all 0.6s;
+  -o-transition: all 0.6s;
   transition: all 0.6s;
 }
 .callme {
@@ -1001,18 +1019,18 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 20px;
   margin: 100px 0;
 }
 .join-us .join .job-type span {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   font-size: 20px;
   color: #6B6B6B;
   text-align: center;
