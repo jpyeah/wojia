@@ -22,7 +22,7 @@ h6 {
   background: #fff;
   color: #AC965A;
 }
-.current-menu-item {
+.current-menu-item > a {
   background: #fff;
   color: #AC965A;
 }
