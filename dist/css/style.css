@@ -41,6 +41,9 @@ h6 {
   margin: 15px auto 0 100px;
   background: #fff;
 }
+.container-fluid .row .img-responsive {
+  width: 100%;
+}
 .home-project-and-service {
   padding-bottom: 50px;
 }
@@ -70,6 +73,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .home-project-and-service .item-title .bottom-line {
   width: 67px;
@@ -79,6 +83,26 @@ h6 {
 .home-project-and-service .pro-item {
   -webkit-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc;
+  overflow: hidden;
+}
+.home-project-and-service .pro-item:hover {
+  -webkit-box-shadow: 0 0 50px #999;
+  box-shadow: 0 0 50px #999;
+  cursor: pointer;
+}
+.home-project-and-service .pro-item .cover {
+  max-height: 300px;
+  overflow: hidden;
+}
+.home-project-and-service .pro-item img {
+  width: 100%;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.home-project-and-service .pro-item img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  /* 放大1.2倍 */
 }
 .home-project-and-service .pro-item span {
   font-size: 16px;
@@ -124,6 +148,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .entrepreneur-evaluation .item-title .bottom-line {
   width: 67px;
@@ -132,6 +157,12 @@ h6 {
 }
 .entrepreneur-evaluation .enter-item {
   overflow: hidden;
+  margin-bottom: 30px;
+}
+.entrepreneur-evaluation .enter-item:hover {
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+  cursor: pointer;
 }
 .entrepreneur-evaluation .enter-item:nth-child(2n) img {
   float: right;
@@ -195,6 +226,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .partner .item-title .bottom-line {
   width: 67px;
@@ -205,6 +237,19 @@ h6 {
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
   padding: 30px 20px;
+}
+.partner .partner-logo:hover {
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+  cursor: pointer;
+}
+.partner .partner-logo:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.partner .partner-logo img {
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .company-desc {
   padding-bottom: 50px;
@@ -235,6 +280,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .company-desc .item-title .bottom-line {
   width: 67px;
@@ -244,10 +290,22 @@ h6 {
 .company-desc .desc-box {
   overflow: hidden;
 }
-.company-desc .desc-box img {
+.company-desc .desc-box .desc-img {
   width: 560px;
   height: 450px;
+  overflow: hidden;
   float: left;
+}
+.company-desc .desc-box .desc-img img {
+  width: 560px;
+  height: 450px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.company-desc .desc-box .desc-img img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .company-desc .desc-box .desc-text {
   float: left;
@@ -302,6 +360,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .team-advisor .item-title .bottom-line {
   width: 67px;
@@ -312,14 +371,34 @@ h6 {
   overflow: hidden;
   padding: 20px 0;
 }
-.team-advisor .team-item img {
+.team-advisor .team-item:hover {
+  cursor: pointer;
+}
+.team-advisor .team-item:hover .team-text {
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+}
+.team-advisor .team-item:hover img {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.team-advisor .team-item .team-img {
   float: left;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin-left: 70px;
+  border-radius: 100%;
+}
+.team-advisor .team-item .team-img img {
   width: 300px;
   height: 300px;
   border-radius: 100%;
   -o-object-fit: cover;
   object-fit: cover;
   position: relative;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .team-advisor .team-item .team-text {
   width: 850px;
@@ -348,6 +427,14 @@ h6 {
   font-size: 14px;
   color: #858585;
   padding-top: 100px;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  background-image: url("../img/prev.png");
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  background-image: url("../img/next.png");
 }
 .project {
   padding-bottom: 50px;
@@ -378,6 +465,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .project .item-title .bottom-line {
   width: 67px;
@@ -388,6 +476,25 @@ h6 {
   -webkit-box-shadow: 0 0 20px #ccc;
   box-shadow: 0 0 20px #ccc;
   margin-bottom: 30px;
+}
+.project .pro-item:hover {
+  -webkit-box-shadow: 0 0 50px #999;
+  box-shadow: 0 0 50px #999;
+  cursor: pointer;
+}
+.project .pro-item .cover {
+  max-height: 300px;
+  overflow: hidden;
+}
+.project .pro-item img {
+  width: 100%;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+.project .pro-item img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  /* 放大1.2倍 */
 }
 .project .pro-item span {
   font-size: 16px;
@@ -431,6 +538,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .project-type .item-title .bottom-line {
   width: 67px;
@@ -441,7 +549,18 @@ h6 {
   overflow: hidden;
   margin-top: 50px;
 }
-.project-type .type-item:nth-child(2n) img {
+.project-type .type-item:hover {
+  cursor: pointer;
+}
+.project-type .type-item:hover .type-item-text {
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+}
+.project-type .type-item:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.project-type .type-item:nth-child(2n) .type-img {
   float: right;
 }
 .project-type .type-item:nth-child(2n) .type-item-text {
@@ -449,13 +568,20 @@ h6 {
   margin-right: -340px;
   padding: 20px 390px 20px 50px;
 }
-.project-type .type-item img {
+.project-type .type-item .type-img {
+  width: 400px;
+  height: 385px;
+  overflow: hidden;
+  float: left;
+}
+.project-type .type-item .type-img img {
   width: 400px;
   height: 385px;
   -o-object-fit: cover;
   object-fit: cover;
-  float: left;
   position: relative;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .project-type .type-item .type-item-text {
   float: left;
@@ -508,6 +634,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .case .item-title .bottom-line {
   width: 67px;
@@ -520,11 +647,26 @@ h6 {
   padding: 20px;
   margin-top: 130px;
 }
-.case .case-item img {
+.case .case-item:hover {
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+  cursor: pointer;
+}
+.case .case-item:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.case .case-item .logo-cover {
   width: 200px;
   height: 200px;
-  display: block;
   margin: -110px auto 0 auto;
+  overflow: hidden;
+}
+.case .case-item .logo-cover img {
+  width: 200px;
+  height: 200px;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .case .case-item label {
   display: block;
@@ -568,6 +710,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .viewpoint .item-title .bottom-line {
   width: 67px;
@@ -608,14 +751,30 @@ h6 {
   margin-top: 5px;
   margin-bottom: 50px;
 }
+.viewpoint .article-item:hover {
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+  cursor: pointer;
+}
+.viewpoint .article-item:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .viewpoint .article-item:last-child {
   margin-bottom: 0;
 }
-.viewpoint .article-item img {
+.viewpoint .article-item .article-cover {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+}
+.viewpoint .article-item .article-cover img {
   width: 280px;
   height: 280px;
   -o-object-fit: cover;
   object-fit: cover;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .viewpoint .article-item .article-text {
   -webkit-box-flex: 1;
@@ -674,6 +833,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .partner .item-title .bottom-line {
   width: 67px;
@@ -712,10 +872,21 @@ h6 {
   height: 180px;
   margin-top: 50px;
 }
+.partner .logo-item:hover {
+  -webkit-box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
+  cursor: pointer;
+}
+.partner .logo-item:hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .partner .logo-item img {
   display: block;
   margin: 0 auto;
   padding: 25% 0;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
 }
 .callme {
   padding-bottom: 50px;
@@ -746,6 +917,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .callme .item-title .bottom-line {
   width: 67px;
@@ -797,6 +969,7 @@ h6 {
   color: #858585;
   float: right;
   margin-top: 20px;
+  cursor: pointer;
 }
 .join-us .item-title .bottom-line {
   width: 67px;

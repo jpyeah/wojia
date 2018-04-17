@@ -29,42 +29,54 @@ get_header();
         </div>
         <div class="col-md-4">
             <div class="case-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                <div class="logo-cover">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                </div>
                 <label>滴滴出行</label>
                 <span>投贷联动咨询及服务</span>
             </div>
         </div>
         <div class="col-md-4">
             <div class="case-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                <div class="logo-cover">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                </div>
                 <label>滴滴出行</label>
                 <span>投贷联动咨询及服务</span>
             </div>
         </div>
         <div class="col-md-4">
             <div class="case-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                <div class="logo-cover">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                </div>
                 <label>滴滴出行</label>
                 <span>投贷联动咨询及服务</span>
             </div>
         </div>
         <div class="col-md-4">
             <div class="case-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                <div class="logo-cover">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                </div>
                 <label>滴滴出行</label>
                 <span>投贷联动咨询及服务</span>
             </div>
         </div>
         <div class="col-md-4">
             <div class="case-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                <div class="logo-cover">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                </div>
                 <label>滴滴出行</label>
                 <span>投贷联动咨询及服务</span>
             </div>
         </div>
         <div class="col-md-4">
             <div class="case-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                <div class="logo-cover">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/exp_img_1.png" alt="">
+                </div>
                 <label>滴滴出行</label>
                 <span>投贷联动咨询及服务</span>
             </div>

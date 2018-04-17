@@ -7,9 +7,6 @@ Template Name: viewpoint
 get_header();
 
 ?>
-
-
-
 <div class="container-fluid">
     <div class="row">
         <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/banner_5.jpg" alt="">
@@ -46,7 +43,10 @@ get_header();
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="tab1">
                         <div class="article-item">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
                             <div class="article-text">
                                 <label>企业投贷联动咨询及服务</label>
                                 <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
@@ -54,7 +54,10 @@ get_header();
                             </div>
                         </div>
                         <div class="article-item">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
                             <div class="article-text">
                                 <label>企业投贷联动咨询及服务</label>
                                 <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
@@ -62,7 +65,10 @@ get_header();
                             </div>
                         </div>
                         <div class="article-item">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
                             <div class="article-text">
                                 <label>企业投贷联动咨询及服务</label>
                                 <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
@@ -72,7 +78,10 @@ get_header();
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
                         <div class="article-item">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
                             <div class="article-text">
                                 <label>企业投贷联动咨询及服务</label>
                                 <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
@@ -80,7 +89,10 @@ get_header();
                             </div>
                         </div>
                         <div class="article-item">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
                             <div class="article-text">
                                 <label>企业投贷联动咨询及服务</label>
                                 <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
@@ -90,7 +102,21 @@ get_header();
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
                         <div class="article-item">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
+                            <div class="article-text">
+                                <label>企业投贷联动咨询及服务</label>
+                                <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
+                                <small>more</small>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="article-cover">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/viewpoint_img_1.png" alt="">
+
+                            </div>
                             <div class="article-text">
                                 <label>企业投贷联动咨询及服务</label>
                                 <span>为企业各阶段资本运作提供投贷联动咨询和服务，联合母基金、券商直投基金、VC/PE、银行、资管计划、 信托、上市公司等综合结构多层次资本，以“银行+VC/PE”为基础模型，研究设计与企业核心商业模式、 现金流结构和财务模型、供应链、市场扩张规划等相匹配且可持续发展的资金运作方案，赋能企业资金链 和资金使用效能。</span>
@@ -103,6 +129,4 @@ get_header();
         </div>
     </div>
 </div>
-
-
 <?php get_footer(); ?>

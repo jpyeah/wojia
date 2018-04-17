@@ -7,12 +7,11 @@
  */
 ?>
 
-
 <nav class="nav navbar-inverse navbar-fixed-top custom-header" role="navgation">
     <div class="container">
         <div class="navbar-header">
             <a href="#" class="navbar-brand hidden-sm hidden-md">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.png" >
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>img/logo.png" >
             </a>
 
             <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -42,3 +41,4 @@
         </div>
     </div>
 </nav>
+

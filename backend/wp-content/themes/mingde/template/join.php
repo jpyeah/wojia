@@ -8,6 +8,7 @@ get_header();
 
 ?>
 
+
 <div class="container-fluid join-us">
     <!--  产品及服务  -->
     <div class="container">
@@ -33,6 +34,5 @@ get_header();
             </div>
         </div>
     </div>
-
-    <div class="row">
+</div>
         <?php get_footer(); ?>

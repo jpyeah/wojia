@@ -9,7 +9,6 @@ get_header();
 ?>
 
 
-
 <div class="container-fluid">
     <div class="row">
         <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/banner_6.jpg" alt="">

@@ -22,6 +22,7 @@
 
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/js/swiper/swiper.min.css">
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/style.css">
     <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/mobile.css">
 
@@ -35,7 +36,7 @@
     <![endif]-->
 
     <!--[if lt IE 6]>
-    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap/js/bootstrap-ie.js"></script>
+    <script type="text/javascript" src="<?php echo esc_url( get_template_directory_uri() ); ?>/bootstrap/js/bootstrap-ie.js"></script>
     <![endif]-->
 
 
@@ -44,6 +45,7 @@
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap/js/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
 <div class="container-fluid">
     <div class="row">

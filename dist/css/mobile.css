@@ -56,8 +56,14 @@
     overflow: hidden;
     padding: 20px 0;
   }
-  .team-advisor .team-item img {
+  .team-advisor .team-item .team-img {
     float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 50px;
+  }
+  .team-advisor .team-item .team-img img {
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -65,7 +71,7 @@
     object-fit: cover;
   }
   .team-advisor .team-item .team-text {
-    width: 280px;
+    width: 200px;
     height: 100px;
     margin-left: -50px;
     float: left;

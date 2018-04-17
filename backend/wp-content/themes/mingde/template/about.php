@@ -29,7 +29,9 @@ get_header();
         </div>
         <div class="col-md-12">
             <div class="desc-box">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about_img_1.png" alt="">
+                <div class="desc-img">
+                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about_img_1.png" alt="">
+                </div>
                 <div class="desc-text">
                     <label>明心公司介绍：</label>
                     <span>
@@ -54,13 +56,48 @@ get_header();
             </div>
         </div>
         <div class="col-md-12">
-            <div class="team-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about_img_2.png" alt="">
-                <div class="team-text">
-                    <label>柯尼斯.格夫</label>
-                    <span>高级顾问</span>
-                    <small>具有10多年经验，专注投贷联动、投资并购等投资银行服务，联合银行、母基金、券商直投基金、 解决企业发展各生命周期的多元化资金需求。</small>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about_img_2.png" alt="">
+                            </div>
+                            <div class="team-text">
+                                <label>柯尼斯.格夫</label>
+                                <span>高级顾问</span>
+                                <small>具有10多年经验，专注投贷联动、投资并购等投资银行服务，联合银行、母基金、券商直投基金、 解决企业发展各生命周期的多元化资金需求。</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about_img_2.png" alt="">
+                            </div>
+                            <div class="team-text">
+                                <label>柯尼斯.格夫</label>
+                                <span>高级顾问</span>
+                                <small>具有10多年经验，专注投贷联动、投资并购等投资银行服务，联合银行、母基金、券商直投基金、 解决企业发展各生命周期的多元化资金需求。</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/about_img_2.png" alt="">
+                            </div>
+                            <div class="team-text">
+                                <label>柯尼斯.格夫</label>
+                                <span>高级顾问</span>
+                                <small>具有10多年经验，专注投贷联动、投资并购等投资银行服务，联合银行、母基金、券商直投基金、 解决企业发展各生命周期的多元化资金需求。</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </div>
