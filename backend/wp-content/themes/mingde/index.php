@@ -2,12 +2,12 @@
 
 get_header();
 ?>
-
     <div class="container-fluid">
         <div class="row">
             <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/banner_1.jpg" alt="">
         </div>
     </div>
+
 
     <!-- 产品及服务 -->
     <div class="container home-project-and-service">
@@ -17,28 +17,34 @@ get_header();
                     <div class="title-line">
                         <h3>产品及服务</h3>
                         <small>Products and services</small>
-                        <label>more</label>
+                        <span>more</span>
                     </div>
                     <div class="bottom-line"></div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="pro-item">
-                    <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/home_img_1.png" alt="">
+                    <div class="cover">
+                        <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/home_img_1.png" alt="">
+                    </div>
                     <span>企业投贷联动咨询及服务</span>
                     <small>联合母基金</small>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="pro-item">
-                    <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/home_img_2.png" alt="">
+                    <div class="cover">
+                        <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/home_img_2.png" alt="">
+                    </div>
                     <span>PE/并购夹层基金和服务</span>
                     <small>实现优质投资</small>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="pro-item">
-                    <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/home_img_3.png" alt="">
+                    <div class="cover">
+                        <img class="img-responsive" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/home_img_3.png" alt="">
+                    </div>
                     <span>企业投资并购咨询及服务</span>
                     <small>提供投资并购合作</small>
                 </div>
@@ -120,5 +126,4 @@ get_header();
             </div>
         </div>
     </div>
-
 <?php get_footer(); ?>
