@@ -22,6 +22,10 @@ h6 {
   background: #fff;
   color: #AC965A;
 }
+.current-menu-item {
+  background: #fff;
+  color: #AC965A;
+}
 .navbar-inverse .navbar-nav > li > a {
   color: #1E1E1E;
   font-size: 14px;
