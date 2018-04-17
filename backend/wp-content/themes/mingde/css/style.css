@@ -22,7 +22,7 @@ h6 {
   background: #fff;
   color: #AC965A;
 }
-.current-menu-item > a {
+.navbar-inverse .navbar-nav > .current_page_item > a {
   background: #fff;
   color: #AC965A;
 }
