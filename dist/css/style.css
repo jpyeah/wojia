@@ -47,12 +47,11 @@ h6 {
   width: 100%;
 }
 .base-header {
-  opacity: .7;
   position: relative;
   z-index: 100;
 }
 .base-header .container-fluid {
-  background: #eeeeee;
+  background: rgba(255, 255, 255, 0.4);
 }
 .logo-bar {
   height: 100px;

@@ -14,6 +14,7 @@ get_header();
 
 ?>
 
+
 <div class="container-fluid" style="margin-top: -180px;height: 644px;">
     <div class="row">
         <div class="banner">
@@ -133,5 +134,6 @@ get_header();
         </div>
     </div>
 </div>
+
 
 <?php get_footer(); ?>

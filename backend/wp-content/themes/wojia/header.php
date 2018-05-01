@@ -10,13 +10,13 @@
  */
 ?>
 <!doctype html>
-<html lang="en-US">
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1"/>
     <meta http-equiv="X-UA-Compatible" content="IE=9"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=width=device-width, user-scalable=no, initial-scale=1.0">
     <title>首页</title>
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！-->
 
@@ -46,10 +46,9 @@
     <![endif]-->
 </head>
 
-
 <body>
 <div class="base-header">
-    <div class="container-fluid" style="border-bottom: 1px solid #B2B2B2;">
+    <div class="container-fluid hidden-xs" style="border-bottom: 1px solid #B2B2B2;">
         <div class="row">
             <div class="container">
                 <div class="row">
@@ -70,9 +69,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-
             <?php get_template_part( 'template-parts/navigation/navigation', 'main' ); ?>
-
 
         </div>
     </div>

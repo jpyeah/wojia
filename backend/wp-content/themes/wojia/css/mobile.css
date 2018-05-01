@@ -2,6 +2,8 @@
   .navbar-inverse .navbar-collapse .navbar-nav {
     margin-left: 0;
     margin-top: 0;
+    background: #ffffff;
+    padding: 20px 0;
   }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
@@ -16,212 +18,105 @@
   .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #BB8F42;
   }
-  .home-project-and-service .pro-item {
-    margin-bottom: 20px;
+  .banner .swiper-container {
+    height: 350px;
   }
-  .home-project-and-service .item-title .title-line small {
-    margin-left: 10px;
+  .banner .banner-bg {
+    height: 350px;
   }
-  .entrepreneur-evaluation .enter-item {
-    margin-bottom: 40px;
-  }
-  .entrepreneur-evaluation .enter-item img {
-    width: 100px;
-    height: 100px;
-  }
-  .entrepreneur-evaluation .enter-item .enter-text {
+  .banner .slogan {
     width: 200px;
+    margin: 50% auto;
+    opacity: .8;
   }
-  .entrepreneur-evaluation .enter-item .enter-text span {
-    padding-top: 0;
+  .apartment .gallery-top,
+  .villa .gallery-top {
+    height: 200px;
   }
-  .entrepreneur-evaluation .enter-item .enter-text label {
-    font-size: 14px;
+  .apartment .gallery-thumbs,
+  .villa .gallery-thumbs {
+    height: 80px;
   }
-  .partner .partner-logo {
-    margin-bottom: 20px;
+  .life .video-item-1 .video-cover,
+  .life .video-item-1 .video-cover .cover {
+    width: 100%;
+    height: 135px;
   }
-  .partner .partner-logo img {
-    display: block;
-    margin: 0 auto;
+  .life .video-item-1,
+  .life .video-item {
+    width: 100%;
+    margin: 0;
   }
-  .container-fluid .img-responsive {
-    margin-top: 80px;
+  .life .video-item .video-cover .cover,
+  .life .video-item .video-cover {
+    width: 100%;
   }
-  .company-desc .desc-box .desc-text {
-    width: auto;
-    border-left: 1px solid #F2F2F2;
+  .life .video-item-1 .video-cover .play-btn {
+    margin: 30px auto;
   }
-  .company-desc .desc-box .desc-text label {
-    margin-top: 20px;
+  .meet .pro-item img {
+    width: 100%;
   }
-  .team-advisor .team-item {
-    overflow: hidden;
-    padding: 20px 0;
-  }
-  .team-advisor .team-item .team-img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    margin-left: 50px;
-  }
-  .team-advisor .team-item .team-img img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .team-advisor .team-item .team-text {
-    width: 200px;
-    height: 100px;
-    margin-left: -50px;
-    float: left;
-    -webkit-box-shadow: 0 0 10px #eee;
-            box-shadow: 0 0 10px #eee;
-    padding: 20px 20px 20px 70px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .team-advisor .team-item .team-text label {
-    font-size: 16px;
-    color: #525252;
-    display: block;
-  }
-  .team-advisor .team-item .team-text span {
-    display: block;
-    font-size: 14px;
-    color: #6B6B6B;
-    padding: 10px 0;
-  }
-  .team-advisor .team-item .team-text small {
-    display: block;
-    font-size: 12px;
-    color: #858585;
-    display: none;
-  }
-  .project-type .type-item {
-    overflow: hidden;
-    margin-top: 50px;
-  }
-  .project-type .type-item:nth-child(2n) img {
-    float: right;
-  }
-  .project-type .type-item:nth-child(2n) .type-item-text {
-    float: right;
-    margin-right: -80px;
-    padding: 10px 90px 10px 25px;
-  }
-  .project-type .type-item .type-img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    position: relative;
-  }
-  .project-type .type-item .type-img img {
-    width: 100px;
-    height: 100px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .project-type .type-item .type-item-text {
-    float: left;
-    width: 290px;
-    height: auto;
-    margin-left: -80px;
+  .billboard .content {
     margin-top: 30px;
-    background: #fff;
-    padding: 10px 25px 10px 90px;
   }
-  .project-type .type-item .type-item-text label {
-    display: block;
-    font-size: 14px;
-    color: #525252;
-    padding-top: 10px;
-    padding: 0;
-  }
-  .project-type .type-item .type-item-text span {
-    display: block;
-    font-size: 12px;
-    color: #858585;
-    text-align: justify;
-  }
-  .viewpoint .nav-tabs > li a {
-    font-size: 12px;
-  }
-  .viewpoint .nav-tabs li {
-    width: 115px;
-  }
-  .viewpoint .article-item {
-    background: #F2F2F2;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 5px;
-    margin-bottom: 50px;
-  }
-  .viewpoint .article-item:last-child {
-    margin-bottom: 0;
-  }
-  .viewpoint .article-item .article-cover {
-    width: 100px;
-    height: 100px;
-  }
-  .viewpoint .article-item .article-cover img {
-    width: 100px;
-    height: 100px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .viewpoint .article-item .article-text {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    padding: 10px 20px;
-  }
-  .viewpoint .article-item .article-text label {
-    font-size: 16px;
-    padding: 10px 0;
-  }
-  .viewpoint .article-item .article-text span {
-    font-size: 12px;
-  }
-  .viewpoint .article-item .article-text small {
-    font-size: 12px;
-  }
-  .partner {
-    padding-bottom: 50px;
-  }
-  .partner .nav-tabs > li a {
-    font-size: 12px;
-  }
-  .partner .nav-tabs li {
-    width: 85px;
-  }
-  .partner .logo-item {
-    height: 100px;
-    margin-top: 20px;
-  }
-  .partner .logo-item img {
-    display: block;
-    margin: 0 auto;
-    padding: 8% 0;
-  }
-  .callme img {
-    width: 100%;
-  }
-  .join-us .join input {
+  .billboard .content textarea {
     width: 300px;
-    height: 50px;
   }
-  .join-us .join .job-type {
+  .billboard .user-info {
+    margin-top: 30px;
+  }
+  .pro-desc {
+    height: 400px;
+  }
+  .pro-list .col-md-4 .pro-item img,
+  .pro-list .col-md-4 .pro-item {
     width: 100%;
-    height: 160px;
   }
-  .join-us .join .job-type span {
-    font-size: 16px;
-    height: 100px;
-    line-height: 100px;
+  .pro-list .col-md-8 .pro-item img,
+  .pro-list .col-md-8 .pro-item {
+    width: 100%;
+  }
+  .pro-list .col-md-4 .pro-item .mask,
+  .pro-list .col-md-8 .pro-item .mask {
+    width: 100%;
+  }
+  .info-desc {
+    margin-top: -600px;
+  }
+  .info-desc .content {
+    width: 300px;
+    margin: 0 auto;
+  }
+  .info-desc .content span {
+    display: block;
+  }
+  .comp-pro {
+    margin-top: 0;
+  }
+  .milestone {
+    margin-top: 300px;
+  }
+  .milestone .swiper-container {
+    width: 300px;
+  }
+  .article {
+    margin-top: -250px;
+  }
+  .article .article-list {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .article-detail {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .article .article-detail p {
+    padding: 10px;
+  }
+  .join-us .join-us-box {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -300px;
   }
 }
