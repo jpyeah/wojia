@@ -33,7 +33,7 @@ get_header();
     <div class="container-fluid apartment" id="m1">
         <div class="row">
             <div class="block-title hidden-xs">
-                <img src="img/title_1.jpg" alt="">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/title_1.jpg" alt="">
             </div>
             <div class="container">
                 <div class="row">
