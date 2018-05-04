@@ -37,116 +37,126 @@ get_header();
 <div class="container pro-list">
 
     <?php $posts = get_posts( "category=4&numberposts=10" ); ?>
-    <?php if( $posts ) : ?>
-        <?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
-            <div class="pro-item">
-                <img src="<?php the_post_thumbnail(); ?>" alt="">
-                <div class="mask">
-                    <label><?php echo the_title(); ?></label>
-                </div>
-                <span><?php echo the_title(); ?></span>
-            </div>
+    <?php if( $posts ) : $num =1; $astr=""; ?>
+        <?php foreach( $posts as  $post) : setup_postdata( $post ); ?>
+            <?php
+            $str ="<div class='col-md-4'><div class='pro-item'><img src=".the_post_thumbnail()."><div class='mask'><label>".the_title()."</label></div><span>".the_title()."</span></div></div>";
+
+            if ($num == 3)
+            {
+                $tstr = "<div class='row'>".$str."</div>";
+                $astr = $astr.$astr;
+                $num = 1;
+            }
+            else
+            {
+                $str = $str.$str;
+                $num++;
+            }
+            ?>
         <?php endforeach; ?>
+
+        <?php echo $astr;?>
     <?php endif; ?>
 
-    <div class="row">
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_01.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_02.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_03.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_01.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_02.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_03.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_01.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-        <div class="col-md-8">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_03.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_03.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="pro-item">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/pro_img_01.jpg" alt="">
-                <div class="mask">
-                    <label>广州·信业悦都荟</label>
-                </div>
-                <span>广州·信业悦都荟</span>
-            </div>
-        </div>
-    </div>
+<!--    <div class="row">-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_01.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_02.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_03.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_01.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_02.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_03.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_01.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-8">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_03.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="row">-->
+<!--        <div class="col-md-8">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_03.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="col-md-4">-->
+<!--            <div class="pro-item">-->
+<!--                <img src="--><?php //echo esc_url( get_template_directory_uri() ); ?><!--/img/pro_img_01.jpg" alt="">-->
+<!--                <div class="mask">-->
+<!--                    <label>广州·信业悦都荟</label>-->
+<!--                </div>-->
+<!--                <span>广州·信业悦都荟</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 </div>
 
 
