@@ -23,13 +23,13 @@
 define('DB_NAME', 'wojia');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'hxfadmin');
+define('DB_USER', 'root');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'HEHmnHoJtrR2v2yd');
+define('DB_PASSWORD', 'wojia');
 
 /** MySQL主机 */
-define('DB_HOST', 'rds68v728v31h8b87rdho.mysql.rds.aliyuncs.com');
+define('DB_HOST', '127.0.0.1');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8mb4');
