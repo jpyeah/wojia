@@ -35,6 +35,20 @@ get_header();
 
 <!-- 项目列表 -->
 <div class="container pro-list">
+
+    <?php $posts = get_posts( "category=4&numberposts=10" ); ?>
+    <?php if( $posts ) : ?>
+        <?php foreach( $posts as $post ) : setup_postdata( $post ); ?>
+            <div class="pro-item">
+                <img src="<?php the_post_thumbnail(); ?>" alt="">
+                <div class="mask">
+                    <label><?php echo the_title(); ?></label>
+                </div>
+                <span><?php echo the_title(); ?></span>
+            </div>
+        <?php endforeach; ?>
+    <?php endif; ?>
+
     <div class="row">
         <div class="col-md-4">
             <div class="pro-item">

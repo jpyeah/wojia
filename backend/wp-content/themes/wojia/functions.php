@@ -108,4 +108,8 @@ function theme_slug_setup() {
 }
 add_action( 'after_setup_theme', 'theme_slug_setup' );
 
+add_theme_support( 'post-thumbnails' ); // 开启特色图功能
+
+set_post_thumbnail_size( 520, 200, true ); // 默认特色图大小
+
 ?>
