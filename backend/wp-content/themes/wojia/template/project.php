@@ -43,7 +43,7 @@ get_header();
         <div class="row">
                 <div class="col-md-4">
                     <div class="pro-item">
-                        <img src="<?php the_post_thumbnail() ?>" >
+                        <?php the_post_thumbnail() ?>
                         <div class="mask">
                             <label><?php the_title()?></label>
                         </div>
