@@ -37,26 +37,23 @@ get_header();
 <div class="container pro-list">
 
     <?php $posts = get_posts( "category=4&numberposts=10" ); ?>
-    <?php if( $posts ) : $num =1; $astr=""; ?>
-        <?php foreach( $posts as  $post) : setup_postdata( $post ); ?>
-            <?php
-            $str ="<div class='col-md-4'><div class='pro-item'><img src=".the_post_thumbnail()."><div class='mask'><label>".the_title()."</label></div><span>".the_title()."</span></div></div>";
+    <?php if( $posts ) : ?>
+        <?php foreach( $posts as  $post) : setup_postdata( $post );  ?>
 
-            if ($num == 3)
-            {
-                $tstr = "<div class='row'>".$str."</div>";
-                $astr = $astr.$astr;
-                $num = 1;
-            }
-            else
-            {
-                $str = $str.$str;
-                $num++;
-            }
-            ?>
+        <div class="row">
+                <div class="col-md-4">
+                    <div class="pro-item">
+                        <img src="<?php the_post_thumbnail() ?>" alt="">
+                        <div class="mask">
+                            <label><?php the_title()?></label>
+                        </div>
+                        <span><?php the_title()?></span>
+                    </div>
+                </div>
+        </div>
+
         <?php endforeach; ?>
 
-        <?php echo $astr;?>
     <?php endif; ?>
 
 <!--    <div class="row">-->
