@@ -61,8 +61,8 @@ h6 {
 }
 .logo-bar .logo-left {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   position: relative;
 }
 .logo-bar .logo-left span {
@@ -88,8 +88,8 @@ h6 {
 }
 .logo-bar .logo-right {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   position: relative;
 }
 .logo-bar .logo-right span {
@@ -141,7 +141,7 @@ h6 {
   opacity: .5;
   border-radius: 10px;
   -webkit-box-shadow: 0 2px 13px rgba(0, 0, 0, 0.13);
-          box-shadow: 0 2px 13px rgba(0, 0, 0, 0.13);
+  box-shadow: 0 2px 13px rgba(0, 0, 0, 0.13);
 }
 .block-title {
   padding: 50px 0;
@@ -170,7 +170,7 @@ h6 {
   height: 140px;
   width: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 10px 0;
 }
 .apartment .gallery-thumbs .swiper-slide,
@@ -215,7 +215,7 @@ h6 {
   background: #E75619;
   border-radius: 23px;
   -webkit-box-shadow: 11px 2px 11px rgba(0, 0, 0, 0.15);
-          box-shadow: 11px 2px 11px rgba(0, 0, 0, 0.15);
+  box-shadow: 11px 2px 11px rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;
   line-height: 46px;
@@ -239,7 +239,7 @@ h6 {
   width: 672px;
   height: 351px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
 }
 .life .video-item-1 .video-cover .play-btn {
@@ -268,7 +268,7 @@ h6 {
   width: 292px;
   height: 153px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
 }
 .life .video-item .video-cover .play-btn {
@@ -403,7 +403,7 @@ h6 {
   width: 772px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   cursor: pointer;
 }
@@ -450,7 +450,7 @@ h6 {
   width: 380px;
   height: 300px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   position: absolute;
   cursor: pointer;
 }
@@ -505,11 +505,11 @@ h6 {
   width: 350px;
   height: 250px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .comp-pro .pro-item img:hover {
   -webkit-box-shadow: 0 0 20px #aaa;
-          box-shadow: 0 0 20px #aaa;
+  box-shadow: 0 0 20px #aaa;
 }
 .comp-pro .pro-item span {
   display: block;
@@ -571,6 +571,8 @@ h6 {
 .article {
   margin-top: -10px;
   padding-bottom: 100px;
+  position: relative;
+  z-index: 100;
 }
 .article .article-list {
   margin-top: 100px;
@@ -650,10 +652,13 @@ h6 {
 }
 .join-us {
   margin-bottom: 100px;
+  position: relative;
+  z-index: 100;
 }
 .join-us .join-us-box {
   border: 1px solid #ccc;
   padding: 50px;
+  background: #fff;
 }
 .join-us .join-us-box ul {
   list-style: none;
