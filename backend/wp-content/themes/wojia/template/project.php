@@ -39,18 +39,17 @@ get_header();
     <?php $posts = get_posts( "category=4&numberposts=10" ); ?>
     <?php if($posts):?>
         <div class="row">
-
-        <?php foreach( $posts as $post) : setup_postdata( $post );  ?>
-            <div class="col-md-4">
-                <div class="pro-item">
-                    <?php the_post_thumbnail() ?>
-                    <div class="mask">
-                        <label><?php the_title()?></label>
+            <?php foreach( $posts as $post) : setup_postdata( $post );  ?>
+                <div class="col-md-4">
+                    <div class="pro-item">
+                        <?php the_post_thumbnail() ?>
+                        <div class="mask">
+                            <label><?php the_title()?></label>
+                        </div>
+                        <span><?php the_title()?></span>
                     </div>
-                    <span><?php the_title()?></span>
                 </div>
-            </div>
-        <?php endforeach; ?>
+            <?php endforeach; ?>
         </div>
     <?php endif; ?>
 

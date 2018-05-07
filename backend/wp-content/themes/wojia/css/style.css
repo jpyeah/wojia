@@ -685,23 +685,23 @@ h6 {
 }
 .join-us .join-us-box ul li:nth-last-child(2) h3:before {
   background: url("../img/tell_ico.jpg");
-  width: 27px;
-  height: 25px;
-  background-size: 27px 25px;
+  width: 20px;
+  height: 23px;
+  background-size: 20px 23px;
   margin-left: -30px;
 }
 .join-us .join-us-box ul li:nth-last-child(3) h3:before {
-  width: 27px;
-  height: 25px;
+  width: 20px;
+  height: 23px;
   background: url("../img/handle_ico.png");
-  background-size: 27px 25px;
+  background-size: 20px 23px;
   margin-left: -30px;
 }
 .join-us .join-us-box ul li:nth-last-child(4) h3:before {
-  width: 27px;
-  height: 25px;
+  width: 20px;
+  height: 23px;
   background: url("../img/handle_ico.png");
-  background-size: 27px 25px;
+  background-size: 20px 23px;
   margin-left: -30px;
 }
 .join-us .join-us-box ul li span {
